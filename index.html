@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap-form-assignment-03</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body class="container mt-3 border border-3 rounded">
+    <form action="" class="container mt-4">
+        <div class="container row">
+           <div class="col ">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control bg-light" placeholder="Enter your name">
+           </div>
+           <div class="col">
+            <label for="email">Email</label>
+            <input type="email" class="form-control bg-light" placeholder="Enter your email">
+           </div>
+        </div>
+        <div class="container row mt-4">
+            <div class="col ">
+             <label for="age">Age(Optional)</label>
+             <input type="number" class="form-control bg-light" placeholder="Age">
+            </div>
+            <div class="col">
+             <label for="role">Current Role</label>
+             <select name="role" id="" class="form-select bg-light">
+                <option value="1" selected>Select</option>
+                <option value="2">Volunteer</option>
+                <option value="2">Manager</option>
+                <option value="2">Audence</option>
+             </select>
+            </div>
+         </div>
+         <div class="container row mt-4">
+            <div class="col ">
+             <label for="recommendation">Would you recommend survey to a friend?</label>
+             <div class="">
+                 <input type="radio" class="" name="recommend" checked>
+                 <label for="">Definately</label>
+                 <input type="radio" class="" name="recommend">
+                 <label for="">May be</label>
+                 <input type="radio" class="" name="recommend">
+                 <label for="">Not sure</label>
+             </div>
+            </div>
+            <div class="col">
+                <label for="usefull">This survey usefull yes or no?</label>
+                <div>
+                    <input type="checkbox" class="" name="usefull" checked>
+                    <label for="">Yes</label>
+                    <input type="checkbox" class="" name="usefull">
+                    <label for="">No</label>
+                </div>
+            </div>
+         </div>
+         <div class="container row mt-4">
+                <label for="">Leave a message</label>
+                <textarea class="form-control bg-light" name="" id="" cols="" rows="5" placeholder="Enter your comment here..."></textarea> 
+         </div>
+         <div class="mt-3 mb-3">
+             <button type="submit" class="btn btn-info">
+                Submit survey
+             </button>
+         </div>
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
